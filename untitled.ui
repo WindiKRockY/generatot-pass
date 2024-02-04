@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>326</width>
-    <height>222</height>
+    <height>209</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -47,7 +47,7 @@ color:black;</string>
      <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
     </property>
    </widget>
-   <widget class="QLabel" name="label_2">
+   <widget class="QLabel" name="paswsword_label">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -60,10 +60,10 @@ color:black;</string>
      <string>Тут буде ваш пароль</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="generator">
     <property name="geometry">
      <rect>
-      <x>110</x>
+      <x>120</x>
       <y>140</y>
       <width>75</width>
       <height>23</height>
@@ -79,12 +79,12 @@ border-radius:10px;</string>
      <string>Згенерувати</string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton">
+   <widget class="QCheckBox" name="checkBox">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>90</y>
-      <width>82</width>
+      <x>130</x>
+      <y>70</y>
+      <width>70</width>
       <height>17</height>
      </rect>
     </property>
@@ -92,12 +92,12 @@ border-radius:10px;</string>
      <string>Букви</string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton_2">
+   <widget class="QCheckBox" name="checkBox_2">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>120</y>
-      <width>82</width>
+      <x>130</x>
+      <y>100</y>
+      <width>70</width>
       <height>17</height>
      </rect>
     </property>
@@ -105,6 +105,12 @@ border-radius:10px;</string>
      <string>Цифри</string>
     </property>
    </widget>
+   <zorder>paswsword_label</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>label</zorder>
+   <zorder>generator</zorder>
+   <zorder>checkBox</zorder>
+   <zorder>checkBox_2</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
